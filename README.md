@@ -120,3 +120,90 @@ slick.dbs.default.db.password="---password---"
 -   In the request body enter JSON for a to-do item:
 
 
+##**HTTP Status code you need to be returned**
+
+<table>
+<head>
+<tr>
+<th>HTTP STATUS</th>
+			<th>SCALA</th>
+
+
+</tr>
+</head>
+
+<tbody>
+<tr>
+<td>200 OK </td>
+<td>  Ok </td>
+
+</tr>
+<tr>
+<td>201 Created</td>
+<td>  Created </td>
+
+</tr>
+<tr>
+<td>301 Moved Permanently </td>
+<td> MovedPermanently </td>
+
+</tr>
+
+<tr>
+<td>302 Found</td>
+<td> Found</td>
+
+</tr>
+
+<tr>
+<td>303 See Other</td>
+<td> 	SeeOther </td>
+
+</tr>
+
+<tr>
+<td>307 Temporary Redirect </td>
+<td> TemporaryRedirect</td>
+
+</tr>
+
+<tr>
+<td>308 Permanent Redirect </td>
+<td> PermanentRedirect</td>
+
+</tr>
+
+<tr>
+<td>404 Not Found </td>
+<td> NotFound</td>
+
+</tr>
+
+<tr>
+<td>406 Not Acceptable</td>
+<td> NotAcceptable</td>
+
+</tr>
+
+<tr>
+<td>415 Unsupported Media Type</td>
+<td> UnsupportedMediaType</td>
+
+</tr>
+
+<tr>
+<td>500 Internal Server Error</td>
+<td> 	InternalServerError</td>
+
+</tr>
+
+<tr>
+<td>Any status</td>
+<td> Status(413)("Oops")</td>
+
+</tr>
+
+
+<tbody>
+</table>
+
