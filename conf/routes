@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+
+#controllers mapping
+GET     /api/user                   controllers.AppController.getAll
+GET     /api/user/:id                  controllers.AppController.getById(id: String)
+POST    /api/user/add              controllers.AppController.add
+PUT     /api/user/update/:id           controllers.AppController.update(id: String)
+DELETE /api/user/delete/:id         controllers.AppController.delete(id: String)
