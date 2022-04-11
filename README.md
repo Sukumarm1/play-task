@@ -23,7 +23,7 @@ We’re going to take a look at the [Play Framework](https://www.playframework.c
 ## Command-line Tools
 
 - sbt new playframework/play-scala-seed.g8
-- name [play-scala-seed]: (`Enter your Project Name1`)
+- name [play-scala-seed]: (`Enter your Project Name`)
 - organization [com.example]: (`com.qbrainx`)
 - play_version [2.8.15]:   (`Enter your preferred play_version`)
 - scala_version [2.13.8]:  (`Enter your preferred scala_version`)
