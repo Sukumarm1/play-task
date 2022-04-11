@@ -120,7 +120,7 @@ slick.dbs.default.db.password="---password---"
 -   In the request body enter JSON for a to-do item:
 
 
-##**HTTP Status code you need to be returned**
+## HTTP Status code you need to be returned
 
 <table>
 <head>
